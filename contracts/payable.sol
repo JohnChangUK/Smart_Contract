@@ -3,11 +3,11 @@ pragma solidity ^0.4.0;
 contract TestTransfer {
     
     function TestTransfer() payable {
-        
+        return "Constructor with payable modifier"
     }
     
     function receiveFund() payable {
-        
+        return "receiveFund with payable modifier"
     }
     
     function getBalance(address _addr) returns (uint) {
