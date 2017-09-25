@@ -1,5 +1,5 @@
-var Calculator = artifacts.require("./Calculator.sol");
+var Calc = artifacts.require("./Calc.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Calculator);
+  deployer.deploy(Calc, 10);
 };

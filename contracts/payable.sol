@@ -2,8 +2,8 @@ pragma solidity ^0.4.0;
 
 contract TestTransfer {
     
-    function TestTransfer() payable returns (string) {
-        return "Constructor with payable modifier";
+    function TestTransfer() payable {
+    
     }
     
     function receiveFund() payable returns (string) {
