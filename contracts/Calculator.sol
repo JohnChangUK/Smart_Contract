@@ -1,6 +1,5 @@
 pragma solidity ^0.4.0;
 
-
 contract Calculator {
     uint public addResult;
     address owner;
@@ -47,7 +46,6 @@ contract Calculator {
     } 
 }
 
-
 contract Interface {
     uint public interResult;
     
@@ -56,7 +54,6 @@ contract Interface {
         return calc.doAddition(num3, num4);
     }
 }
-
 
 contract SuperCalculator is Calculator {
     function getFinalResult() returns (uint) {
